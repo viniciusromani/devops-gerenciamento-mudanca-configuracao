@@ -9,11 +9,11 @@
 # versões compatíveis e evita problemas de compatibilidade entre ambientes.
 
 terraform {
-    required_version = ">= 1.14.3"
-    required_providers {
-        aws = {
-        source  = "hashicorp/aws"
-        version = "~> 6.28"
-        }
+  required_version = ">= 1.14.8"
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 6.38"
     }
+  }
 }

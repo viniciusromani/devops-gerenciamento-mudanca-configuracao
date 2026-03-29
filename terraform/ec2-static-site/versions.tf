@@ -11,13 +11,13 @@
 
 terraform {
   # Versão mínima do Terraform necessária
-  required_version = ">= 1.14.3"
+  required_version = ">= 1.14.8"
 
   # Providers necessários
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 6.28.0"
+      version = "~> 6.38.0"
     }
   }
 }
@@ -40,7 +40,7 @@ provider "aws" {
       Projeto       = var.projeto
       Gerenciamento = var.gerenciamento
       Ambiente      = var.ambiente
-      CriadoPor     = "Coloque Aqui Seu Nome"
+      CriadoPor     = "Vinicius Romani"
     }
   }
 }

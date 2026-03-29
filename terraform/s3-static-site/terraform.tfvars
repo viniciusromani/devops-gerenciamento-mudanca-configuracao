@@ -19,7 +19,7 @@
 
 # Nome do bucket S3. Lembre-se que este nome deve ser GLOBALMENTE ÚNICO.
 # Substitua pelo nome que você deseja usar.
-bucket_name = "devops-ifmt-iac-site-estatico-2026-exemplo"
+bucket_name = "devops-ifmt-iac-site-estatico"
 
 # Caminho para o diretório local que contém os arquivos do site (HTML, CSS, etc.).
 # Conforme a estrutura de pastas, o caminho relativo a partir de 's3-static-site'

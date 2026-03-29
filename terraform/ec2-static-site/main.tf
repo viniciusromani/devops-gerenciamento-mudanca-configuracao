@@ -113,7 +113,7 @@ resource "aws_instance" "site_nginx" {
     connection {
       type        = "ssh"
       user        = "ubuntu"
-      private_key = file("../../${var.key_name}.pem")
+      private_key = file("../../keys/${var.key_name}.pem")
       host        = self.public_ip
       timeout     = "2m"
     }

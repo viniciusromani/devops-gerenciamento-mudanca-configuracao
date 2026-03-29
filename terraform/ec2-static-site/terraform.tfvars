@@ -17,13 +17,13 @@ aws_region = "sa-east-1"
 # Identificação do Projeto
 projeto       = "especializa-devops"
 gerenciamento = "terraform-iac"
-ambiente      = "desenvolvimento"
+ambiente      = "dev"
 recurso       = "site-nginx"
 
 # Configuração da Instância EC2
 instance_type = "t3.micro"
 ami_ubuntu    = "ami-0a14809f48c07e3b7"
-key_name      = "ColoqueAquiSuakeypair"
+key_name      = "ifmt-devops-iac"
 
 # Configuração de Rede
 enable_public_ip = true

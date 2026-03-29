@@ -35,11 +35,11 @@
   # ========================================================================
 
   vars:
-    domain_name: ColoqueAquiSeuDominio.com.br
-    web_root: /var/www/ColoqueAquiSeuDominio.com.br/html
+    domain_name: pira.dev.br
+    web_root: /var/www/pira.dev.br/html
     nginx_user: www-data
     nginx_group: www-data
-    admin_email: aluno@ifmt.edu.br  # ALTERE PARA SEU E-MAIL
+    admin_email: vn.romani@gmail.com  # ALTERE PARA SEU E-MAIL
 
   # ========================================================================
   # ROLES
